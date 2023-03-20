@@ -8,18 +8,18 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="公分" HorizontalAlignment="Left" Margin="68,0,0,310" VerticalAlignment="Bottom" Height="23" Width="42"/>
-        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Height="43" Width="113"/>
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Height="43" Width="113" Click="btnAllClear_Click"/>
         <Label Content="公尺" HorizontalAlignment="Left" Height="23" Margin="267,102,0,0" VerticalAlignment="Top" Width="35"/>
         <Label Content="公里」" HorizontalAlignment="Left" Height="27" Margin="477,98,0,0" VerticalAlignment="Top" Width="43"/>
         <Label Content="英吋" HorizontalAlignment="Left" Height="39" Margin="68,217,0,0" VerticalAlignment="Top" Width="42"/>
         <Label Content="英呎" HorizontalAlignment="Left" Height="39" Margin="273,217,0,0" VerticalAlignment="Top" Width="42"/>
         <Label Content="碼" HorizontalAlignment="Left" Height="39" Margin="460,217,0,0" VerticalAlignment="Top" Width="38"/>
-        <TextBox x:Name="txtCM" HorizontalAlignment="Left" Margin="68,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37"/>
-        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="462,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37"/>
-        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Margin="264,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37"/>
-        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Margin="68,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37"/>
-        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Margin="460,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37"/>
-        <TextBox x:Name="txtM" HorizontalAlignment="Left" Margin="255,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37"/>
+        <TextBox x:Name="txtCM" HorizontalAlignment="Left" Margin="68,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" KeyUp="txtCM_KeyUp"/>
+        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="462,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" KeyUp="txtYard_KeyUp"/>
+        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Margin="264,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" KeyUp="txtFt_KeyUp"/>
+        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Margin="68,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" KeyUp="txtIn_KeyUp"/>
+        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Margin="460,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" KeyUp="txtKM_KeyUp"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Left" Margin="255,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="37" KeyUp="txtM_KeyUp"/>
         <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Margin="142,359,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="628" Height="37"/>
         <Label Content="說明文字" HorizontalAlignment="Left" Height="27" Margin="68,360,0,0" VerticalAlignment="Top" Width="60"/>
 
